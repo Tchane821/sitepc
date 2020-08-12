@@ -5,7 +5,8 @@
         margin-top: 0px;
         padding-top: 35px;
         text-align: center;
-        background: linear-gradient(90deg,lightskyblue,white);
+        color: whitesmoke;
+        background-color: #1EB219;
     }
     header > h1{
         margin: 0px;
@@ -17,21 +18,32 @@
     }
     nav{
         margin: 0px;
-        background: linear-gradient(90deg,lightskyblue,white);
+        color: whitesmoke;
+        background-color: #1EB219;
+        font-family: "Trebuchet MS";
     }
     nav ul{
         margin: 0px;
         padding: 0px
     }
+    nav > ul > li >p {
+        margin: auto;
+        padding-top: 10px;
+    }
+    .navplusgrand{
+        margin: auto;
+        padding-top: 4px;
+    }
     .firstlinav{
         display: inline-block;
+        vertical-align: text-top;
         height: 40px;
         text-align: center;
         padding-right: 2px;
         padding-left: 3px;
         margin: 0px;
         width: 22%;
-        font-size: 80%; 
+        font-size: 83%; 
     }
     .autrelinav{
         display: inline-block;
@@ -41,20 +53,35 @@
         padding-right: 2px;
         padding-left: 3px;
         margin: 0px;
-        width: 22%;
-        font-size: 90%; 
+        width: 21%;
+        font-size: 83%; 
         border-left: 2px gray ridge;
     }
     div{
         text-align: center;
     } 
     article{
-        margin: auto;
         margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
         width: 80%;
-        border-top: 5px greenyellow inset;
+        color: whitesmoke;
+        background-color: #1EB219 ;
+        border-top: 5px #C3C3C3 inset;
     }
     article > h2{
         font-size: 140%;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    article > section > p {
+       margin: 0;
+       font-family: "Trebuchet MS";
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-bottom: 10px;
+
+       text-justify: inter-word;
     }
 }

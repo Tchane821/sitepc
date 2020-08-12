@@ -5,7 +5,8 @@
         margin-top: 0px;
         padding-top: 35px;
         text-align: center;
-        background: linear-gradient(90deg,lightskyblue,white);
+        color: whitesmoke;
+        background-color: #1EB219;
     }
     header > h1{
         margin: 0px;
@@ -17,11 +18,16 @@
     }
     nav{
         margin: 0px;
-        background: linear-gradient(90deg,lightskyblue,white);
+        color: whitesmoke;
+        background-color: #1EB219;
+        font-family: "Trebuchet MS";
     }
-    nav ul{
+    ul{
         margin: 0px;
         padding: 0px
+    }
+    nav > ul > li >p {
+        margin: 0;
     }
     .firstlinav{
         display: inline-block;
@@ -40,5 +46,53 @@
     }
     div{
         text-align: center;
+    }
+    article{
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+        color: whitesmoke;
+        background-color: #1EB219 ;
+        border-top: 5px #C3C3C3 inset;
+        border-left: 5px #C3C3C3 inset;
+    }
+    article > h2 {
+        margin: 0;
+        padding-top: 10px;
+    }
+    article > section > p {
+        font-family: "Trebuchet MS";
+        margin: 0;
+        padding: 10px;
+        text-justify: inter-word;
+    }
+    .imgpc {
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .blockcomposant{
+        font-family: "Trebuchet MS";
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin :0px;
+    }
+    .listecompo{
+        text-align: left;
+        padding-left: 20px;
+    }
+    h3{
+        margin: 0;
+        padding: 10px;
+    }
+    .splite{
+        margin: auto;
+        padding-bottom: 10px;
+        display: block;
+        width: 60%;
+        height: 3px;
+        border-top : 2px white inset;
     }
 }
